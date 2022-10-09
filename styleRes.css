@@ -1,0 +1,217 @@
+@media (max-width: 576px) {
+
+      .container {
+            width: 100%;
+            padding: 0;
+      }
+
+      .container .navbar {
+            height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+      }
+
+      .container .navbar .ul {
+            display: block;
+
+      }
+
+
+      /* Main start */
+      .container .main {
+            width: 100%;
+            height: 80%;
+            background-image: url(./img/MainRes.png);
+            background-position: left;
+            background-size: cover;
+            border-radius: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+
+      }
+
+      .container .main .main_left {
+            width: 100%;
+            height: 68vh;
+            text-align: center;
+            padding: 10px;
+      }
+
+      .container .main .main_left h1 {
+            font-size: 50px;
+      }
+
+      .container .main .main_left .main_btn {
+            position: relative;
+            left: 20%;
+      }
+
+
+      /* Main end  */
+
+
+      /* Collection start */
+
+
+      .container .collections {
+            width: 100%;
+            height: auto;
+      }
+
+
+
+      .container .collections .collections_main {
+            display: block;
+
+      }
+
+      .container .collections .collections_box {
+            display: block;
+            width: 100%;
+            position: relative;
+            top: -30px;
+            text-align: center;
+      }
+
+
+
+      /* collection end  */
+
+      /* ContentMain start */
+
+      .content_main {
+            width: 100%;
+            height: auto;
+      }
+
+      .container .content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+      }
+
+      .content_top {
+            background: #333D4B;
+            height: auto;
+      }
+
+      .container .content_blok {
+            text-align: center;
+            width: 100%;
+            color: white;
+            padding: 19px;
+
+      }
+
+      .container .content_left {
+            padding: 10px;
+            display: block;
+            justify-content: space-evenly;
+      }
+
+      .container .content_cards {
+            width: 100%;
+            margin-top: 1rem;
+
+      }
+
+
+
+      /* Plan start  */
+      .container .plan {
+            height: auto;
+            padding: 10px;
+      }
+
+      .container .plan h3 {
+            font-size: 25px;
+            text-align: center;
+            padding: 2rem;
+      }
+
+      .container .plan .plan_img {
+            display: none;
+      }
+
+      .container .plan .plan_cards {
+            width: 100%;
+            height: 55%;
+            display: block;
+      }
+
+      .container .plan .plan_cards .plan_boxs {
+            text-align: center;
+            margin-bottom: 1rem;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-evenly;
+
+      }
+
+      .container .plan .plan_cards .plan_boxs li {
+            list-style: none;
+            font-size: 38px;
+            padding: 10px;
+      }
+
+      .container .plan .plan_cards .plan_boxs h4 {
+            font-size: 100px;
+      }
+
+      .container .plan .plan_btn {
+            margin-top: 2rem;
+            position: relative;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+      }
+
+
+
+      /* plan end  */
+
+
+
+      /* Footer start  */
+
+      .footer {
+            height: auto;
+            display: block;
+            text-align: center;
+      }
+
+      .footer_logo {
+            padding: 1.5rem 0;
+      }
+
+      .footer_ul {
+            display: block;
+            width: 100%;
+            margin-top: 10px;
+
+      }
+
+      .footer_ul li {
+            padding: 20px;
+
+      }
+
+      .footer_brand {
+            width: 100%;
+            display: block;
+
+      }
+
+      .footer_brand a {
+            margin: 10px;
+
+      }
+
+      /* Footer end  */
+}
